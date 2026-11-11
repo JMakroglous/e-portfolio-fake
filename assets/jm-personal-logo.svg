@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">JM personal logo</title>
+  <desc id="desc">An elegant interlocking JM monogram in deep ink and warm coral.</desc>
+  <defs>
+    <linearGradient id="coral" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F29376"/>
+      <stop offset="1" stop-color="#D9614C"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" rx="176" fill="#F6F2EA"/>
+  <path d="M400 116c157 0 284 127 284 284S557 684 400 684 116 557 116 400" fill="none" stroke="#DED8CD" stroke-width="2"/>
+  <path d="M116 400c0-157 127-284 284-284" fill="none" stroke="url(#coral)" stroke-linecap="round" stroke-width="10"/>
+  <path d="M258 270v192c0 57-28 85-78 85-31 0-56-11-75-34" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="34"/>
+  <path d="M354 542V270l104 146 104-146v272" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="34"/>
+  <circle cx="620" cy="218" r="15" fill="#D9614C"/>
+</svg>
+
