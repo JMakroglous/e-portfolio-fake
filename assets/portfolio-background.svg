@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="70" x2="1750" y2="1050" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F8FC"/><stop offset=".52" stop-color="#EEF2FA"/><stop offset="1" stop-color="#E9EDF7"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="matrix(560 380 -460 677 1450 160)" gradientUnits="userSpaceOnUse"><stop stop-color="#C8D5FF" stop-opacity=".72"/><stop offset="1" stop-color="#C8D5FF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="matrix(460 310 -395 586 290 880)" gradientUnits="userSpaceOnUse"><stop stop-color="#D6E9F2" stop-opacity=".75"/><stop offset="1" stop-color="#D6E9F2" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ribbon" x1="1160" y1="70" x2="1780" y2="980" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF" stop-opacity=".64"/><stop offset="1" stop-color="#B8C8F3" stop-opacity=".12"/></linearGradient>
+    <filter id="blur" x="850" y="-180" width="1150" height="1300" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="76"/></filter>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1.2" cy="1.2" r="1" fill="#52617F" fill-opacity=".105"/></pattern>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1920v1080H0z"/>
+  <path fill="url(#glowA)" d="M0 0h1920v1080H0z"/>
+  <path fill="url(#glowB)" d="M0 0h1920v1080H0z"/>
+  <g filter="url(#blur)" opacity=".6"><ellipse cx="1460" cy="510" rx="370" ry="490" fill="#D5DFFF"/></g>
+  <path d="M1360-80c-28 230 63 310 183 443 119 131 196 242 159 440-32 171-152 285-309 368h631V-80h-664Z" fill="url(#ribbon)"/>
+  <path d="M1450-20c-9 216 87 294 194 418 112 130 154 252 104 424-38 132-112 217-244 310" stroke="#fff" stroke-opacity=".48" stroke-width="2"/>
+  <path d="M1534-25c1 184 96 274 198 397 104 125 134 239 89 392-31 107-86 183-192 278" stroke="#fff" stroke-opacity=".32" stroke-width="1.5"/>
+  <circle cx="1575" cy="285" r="245" fill="url(#dots)" opacity=".55"/>
+  <path d="M0 0h1920v1080H0z" fill="url(#dots)" opacity=".20"/>
+</svg>

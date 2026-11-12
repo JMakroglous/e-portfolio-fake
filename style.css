@@ -6,9 +6,55 @@
   font-family: 'roboto', sans-serif;
 }
 
-
 li {
   list-style-type: none;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+section {
+ background: rgb(227, 240, 248);
+}
+
+.title {
+  font-size: 100px;
+  margin-bottom: 12px;
+  text-align: left;
+  line-height: 1;
+}
+
+ .title--secondary {
+  color: rgba(110, 3, 3, 0.879);
+}
+
+
+/* 
+
+LANDING PAGE 
+
+*/
+
+#landing-page {
+  min-height: 100vh;
+}
+
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1000px;
+}
+
+.header__para {
+  font-size: 20px;
+  line-height: 1;
+  max-width: 450px;
+  text-align: center;
 }
 
 /* 
@@ -47,4 +93,6 @@ nav {
   color: #242424;
   font-weight: 700;
 }
+
+
 
