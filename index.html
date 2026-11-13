@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>John Makroglous</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+  body {
+    background: #f5f3f5 url("./assets/portfolio-tie-dye-checker-color.svg")
+      center / cover fixed no-repeat;
+  }
+</style>
   <script src="https://kit.fontawesome.com/359ddc3222.js"
 crossorigin="anonymous"></script>
 </head>
@@ -15,28 +21,28 @@ crossorigin="anonymous"></script>
         <img id="personal-logo" src="./assets/jm-personal-logo.svg" alt="my logo">
       </figure>
       <ul class="nav__link--list">
-      <li class="nav__link">
+      <li class="nav__link click">
           <a href="#" class="
           nav__link--anchor
           link__hover-effect
           link__hover--effect--black
           ">About</a>
         </li>
-        <li class="nav__link">
+        <li class="nav__link click">
           <a href="#" class="
           nav__link--anchor
           link__hover-effect
           link__hover--effect--black
           ">Projects</a>
         </li>
-        <li class="nav__link">
+        <li class="nav__link click">
           <a href="#" class="
           nav__link--anchor
           link__hover-effect
           link__hover--effect--black
           ">Contact</a>
         </li>
-        <li class="nav__link">
+        <li class="nav__link click">
           <a href="#" class="
           nav__link--anchor
           link__hover-effect
@@ -46,12 +52,31 @@ crossorigin="anonymous"></script>
     </nav>
     <header class="header">
       <div class="header__content">
-        <h1 class="title">Hey</h1>
+        <h1 class="title">Hey,</h1>
         <h1 class="title title--secondary">I'm John.</h1>
-        <p class="header__para">   I am a <b class="red">frontend software engineer.</b> A creative and detail-oriented aspiring frontend developer with a strong interest in building responsive, user-friendly, and visually engaging websites and applications.  A motivated problem-solver who enjoys learning new technologies, improving user experiences, and turning ideas into funtional digital experiences. 
-          <br> Here's a bit more <b class="red">about me.</b></p>
+        <p class="header__para">   I am a <b class="rgba(110, 3, 3, 0.879)">frontend software engineer.</b> A creative and detail-oriented aspiring frontend developer with a strong interest in building responsive, user-friendly, and visually engaging websites and applications.  A motivated problem-solver who enjoys learning new technologies, improving user experiences, and turning ideas into funtional digital experiences. 
+          <br> Here's a bit more <b class="rgba(110, 3, 3, 0.879)">about me.</b></p>
+          <div class="social__list">
+            <a class="social__link click">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a class="social__link click">
+              <i class="fab fa-github"></i>
+            </a>
+            <a class="social__link click">
+              <i class="fas fa-file-pdf"></i>
+            </a>
+          </div>
       </div>
     </header>
+    <button class="mail__btn click">
+     <i class="fas fa-envelope"></i>
+    </button>
+    <a href="#projects" class="scroll">
+      <div class="scroll__icon click">
+        
+      </div>
+    </a>
   </section>
 </body>
 </html>

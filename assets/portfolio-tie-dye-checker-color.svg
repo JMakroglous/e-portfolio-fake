@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="base" x1="80" y1="40" x2="1520" y2="960" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF6E9"/><stop offset=".48" stop-color="#F8F0FF"/><stop offset="1" stop-color="#EAF7FF"/></linearGradient>
+    <pattern id="checks" width="176" height="176" patternUnits="userSpaceOnUse"><rect width="176" height="176" fill="#FFFFFF" fill-opacity=".18"/><path d="M0 0h88v88H0zM88 88h88v88H88z" fill="#54277D" fill-opacity=".19"/></pattern>
+    <radialGradient id="pink" cx="0" cy="0" r="1" gradientTransform="matrix(450 90 -135 590 240 265)" gradientUnits="userSpaceOnUse"><stop stop-color="#FF3E9D" stop-opacity=".95"/><stop offset=".45" stop-color="#FF5A81" stop-opacity=".62"/><stop offset="1" stop-color="#FF5A81" stop-opacity="0"/></radialGradient>
+    <radialGradient id="orange" cx="0" cy="0" r="1" gradientTransform="matrix(350 190 -205 380 670 165)" gradientUnits="userSpaceOnUse"><stop stop-color="#FFB629" stop-opacity=".88"/><stop offset=".48" stop-color="#FFD84E" stop-opacity=".48"/><stop offset="1" stop-color="#FFD84E" stop-opacity="0"/></radialGradient>
+    <radialGradient id="blue" cx="0" cy="0" r="1" gradientTransform="matrix(480 150 -175 560 1290 300)" gradientUnits="userSpaceOnUse"><stop stop-color="#19C8E8" stop-opacity=".9"/><stop offset=".5" stop-color="#38A9FF" stop-opacity=".58"/><stop offset="1" stop-color="#38A9FF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="purple" cx="0" cy="0" r="1" gradientTransform="matrix(400 140 -160 455 1000 855)" gradientUnits="userSpaceOnUse"><stop stop-color="#8A42F5" stop-opacity=".86"/><stop offset=".5" stop-color="#B245E8" stop-opacity=".52"/><stop offset="1" stop-color="#B245E8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="green" cx="0" cy="0" r="1" gradientTransform="matrix(370 170 -190 420 360 850)" gradientUnits="userSpaceOnUse"><stop stop-color="#39D98A" stop-opacity=".8"/><stop offset=".52" stop-color="#8DE05F" stop-opacity=".45"/><stop offset="1" stop-color="#8DE05F" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-100" y="-100" width="1800" height="1200" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="24"/></filter>
+  </defs>
+  <path fill="url(#base)" d="M0 0h1600v1000H0z"/>
+  <g filter="url(#soft)"><path fill="url(#pink)" d="M0 0h1600v1000H0z"/><path fill="url(#orange)" d="M0 0h1600v1000H0z"/><path fill="url(#blue)" d="M0 0h1600v1000H0z"/><path fill="url(#purple)" d="M0 0h1600v1000H0z"/><path fill="url(#green)" d="M0 0h1600v1000H0z"/></g>
+  <path fill="url(#checks)" d="M0 0h1600v1000H0z"/>
+  <path fill="#FFF" fill-opacity=".10" d="M0 0h1600v1000H0z"/>
+</svg>
