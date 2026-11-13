@@ -201,8 +201,7 @@ PROJECTS
 
 */
 
-.section__title 
-.span {
+.section__title span {
   color: rgba(110, 3, 3, 0.879);
 }
 
