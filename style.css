@@ -27,8 +27,15 @@ button {
   cursor: pointer;
 }
 
-body {
-  background: #f5f3f5 url("./assets/portfolio-tie-dye-checker-color.svg") center / cover fixed no-repeat;
+.container {
+  padding: 50px 0;
+}
+
+.row {
+  width: 100%;
+  min-width: 1100px;
+  margin: 0 auto;
+  padding: 0 12px;
 }
 
 .click {
@@ -49,7 +56,7 @@ body {
   text-align: left;
   line-height: 1;
 }
-
+ 
  .title--secondary {
   color: rgba(110, 3, 3, 0.879);
 }
@@ -188,5 +195,20 @@ nav {
   font-weight: 700;
 }
 
+/* 
 
+PROJECTS 
+
+*/
+
+.section__title 
+.span {
+  color: rgba(110, 3, 3, 0.879);
+}
+
+.section__title {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 60px;
+}
 
