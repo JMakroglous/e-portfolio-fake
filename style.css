@@ -217,7 +217,8 @@ PROJECTS
 
 .project__wrapper:hover 
 .project__description {
-  opacity: 0;
+  opacity: 1;
+  transform: translateY(-50%);
 }
 
 .project__wrapper:hover .project__img {
