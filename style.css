@@ -245,6 +245,8 @@ MODAL
   border-radius: 20px;
   overflow: hidden;
   display: flex;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .modal__half {
