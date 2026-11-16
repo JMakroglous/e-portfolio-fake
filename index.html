@@ -79,7 +79,7 @@ crossorigin="anonymous"></script>
     </a>
     <!-- MODAL -->
     <div class="modal">
-      <div class="modal__half modal__about">Here's a bit more about me
+      <div class="modal__half modal__about">
       <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
       <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer.</h4>
       <p class="modal__para">
@@ -103,8 +103,37 @@ crossorigin="anonymous"></script>
        </div>
       </div>
        <div class="modal__half modal__contact">
-          
+        <h3 class="modal__title modal__contact">
+          Let's have a chat!
+        </h3>
+        <h3 class="modal__sub-title" modal__sub-title--contact>
+          I'm currently open to new opportunities.
+        </h3>
+        <form id="contact__form" action="">
+          <div class="form__item">
+            <label class="form__item--label">Name</label>
+            <input class="input" name="user__name" type="text" required></inpot>
+          </div>
+          <div class="form__item">
+            <label class="form__item--label">E-mail</label>
+            <input class="input" name="user__email" type="email" required></input>
+          </div>
+          <div class="form__item">
+            <label class="form__item--label">Message</label>
+            <textarea class="input" name="massage" type="text" required></textarea>
+          </div>
+          <button id="contact__submit" class="form__submit">
+            Send it my way
+          </button>
+        </form> 
+         <div class="modal__overlay modal__overlay--loading">
+          <i class="fas fa-spinner"></i>
+         </div>
+         <div class="modal__overlay modal__overlay--success">
+          Thanks for the message! Looking forward to speaking to you soon.
+         </div> 
        </div>
+       <i class="fas fa-times modal__exit click"></i>
       </div> 
   </section>
   <section id="projects">
