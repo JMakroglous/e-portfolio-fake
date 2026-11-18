@@ -156,8 +156,10 @@ nav,.scroll,
   border-color: white;
 }
 
-.dark-theme .scroll__icon:after {
-  background-color: white;  
+.dark-theme .scroll__icon:after,
+.sark-theme .link__hover-effect--black:after {
+  background-color: white;
+    
 }
 
 .dark-theme .mail__btn {
