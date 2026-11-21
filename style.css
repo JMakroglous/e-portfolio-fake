@@ -724,6 +724,9 @@ SHAPES
   .modal__half {
     padding: 40px;
   }
+  .footer__social--list {
+    flex-direction: column;
+  }
 }
 
 
