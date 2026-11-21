@@ -350,7 +350,10 @@ MODAL
 }
 
 .modal__about {
-  background-color: rgb(245, 245, 245);
+  background-image: url(./assets/portfolio-tie-dye-checker-color.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -421,12 +424,12 @@ MODAL
 }
 
 .form__submit {
-  background-color:rgba(110, 0, 0, 0.879);
+  background-color: rgba(110, 3, 3, 0.879);
   color: white;
   font-weight: 700;
-  border: 2px solid rgba(110, 0, 0, 0.879);
   width: 100%;
   max-width: 240px;
+  border-color: rgba(110, 3, 3, 0.879);
   padding: 12px 24px;
   font-size: 20px;
   transition: all 300ms ease;
@@ -625,21 +628,7 @@ footer {
 
 SHAPES 
 
-shapes on the first row
-height = 35vh
 
-shapes on the second row
-height = 70vh
-
-shapes on the third row
-height = 95vh
-
-shapes on the first column
-width =5vw
-shapes on the second column
-width =50vw
-shapes on the third column
-width =80vw
 */
 
 .shape {
